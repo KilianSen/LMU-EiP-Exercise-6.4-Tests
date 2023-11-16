@@ -9,6 +9,7 @@ public class TimeTests {
         test_adding();
         test_tick();
         test_timeDifference();
+        System.out.println("Alle Tests bestanden");
     }
     public static void assertEqual(Object a, Object b) {
         if (!a.equals(b)) {
